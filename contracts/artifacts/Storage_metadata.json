@@ -63,6 +63,35 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "level",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "score",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
@@ -91,13 +120,23 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_value",
+						"name": "_level",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_score",
 						"type": "uint256"
 					}
 				],
@@ -177,11 +216,11 @@
 	},
 	"sources": {
 		"contracts/1_Storage.sol": {
-			"keccak256": "0x81c9989a178c17250141b014d7f337dc15a4991ed4000d483b56d4be3eb86b85",
+			"keccak256": "0x4e85be4d44b3bf344654dc3bc95a9682b3ef4aabdba90ce6728a2bcef908d57d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://0bccff3b21da96ec131dd99e0d7414a484014e6b4785e5972eb893ae9b280c7a",
-				"dweb:/ipfs/QmbKFrufjKQh3HAMbZARXhDghBVQxdTp9WaJprHg5gU39R"
+				"bzz-raw://a9381ab33b2c660fe5fbf14f93369b2a02f357e93ae17101d6b301940af36b55",
+				"dweb:/ipfs/QmQxX3TzcdRXkqdD1qj9MYq9APFdg694igqGqYwcHMfRUa"
 			]
 		}
 	},

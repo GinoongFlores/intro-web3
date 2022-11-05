@@ -14,17 +14,26 @@ contract Storage {
 
     bytes public b1 = "abc"; 
     string public s1 = "abc";
-    mapping(string => uint) public myMapping;
+    mapping(string => uint) public myMapping; 
+
+      struct Player {
+        string name;
+        uint level;
+        uint score; 
+    }
+
+
+    mapping(uint => Player) public players;
 
     constructor() {
         number = 100;
     }
 
-    function setMapping(string memory _name, uint _value) public {
-        myMapping[_name] = _value; 
+    function setMapping(uint _id, string memory _name, uint _level, uint _score) public {
+        players[_id] = Player(_name, _level, _score);
     }
 
-
+  
     function addElement() public {
         b1.push("x");
         // s1.push("x");
