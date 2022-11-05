@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MyLotteryContract.sol": "myLotter"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MyLotteryContract.sol": {
+			"keccak256": "0x953a2d12f4cf65f262daf31f5d8fe29f5a25de272944852d07f19930e55131af",
+			"urls": [
+				"bzz-raw://0dcb36dc61241faaea1a09299654a2990ce3e5c609018f8c42261d858ae57894",
+				"dweb:/ipfs/QmesEVRo3VjFSTY9jT5X6crAJ9Ke196S3Q6AWdBd25NAeQ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -32,6 +32,26 @@
 			},
 			{
 				"inputs": [],
+				"name": "fight",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gameState",
+				"outputs": [
+					{
+						"internalType": "enum Storage.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getValue",
 				"outputs": [
 					{
@@ -159,6 +179,13 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "startGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -216,11 +243,11 @@
 	},
 	"sources": {
 		"contracts/1_Storage.sol": {
-			"keccak256": "0x4e85be4d44b3bf344654dc3bc95a9682b3ef4aabdba90ce6728a2bcef908d57d",
+			"keccak256": "0xc7e00a33f6e2399d58fea64c278fcde579c55690769f0825b1ded4b354b3b84f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a9381ab33b2c660fe5fbf14f93369b2a02f357e93ae17101d6b301940af36b55",
-				"dweb:/ipfs/QmQxX3TzcdRXkqdD1qj9MYq9APFdg694igqGqYwcHMfRUa"
+				"bzz-raw://62b6441cfe0cae68c958a64ad5441d82452a409e7edf02af8bc21d78f5865e01",
+				"dweb:/ipfs/QmdnDhTzhtXjEJZ5Bi6Z7cNYrH4QDBRpXqjYscVXDS6B3m"
 			]
 		}
 	},

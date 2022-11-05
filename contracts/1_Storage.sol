@@ -22,11 +22,33 @@ contract Storage {
         uint score; 
     }
 
+       constructor() {
+        number = 100;
+    }
+
 
     mapping(uint => Player) public players;
 
-    constructor() {
-        number = 100;
+    enum State {
+        Close, // 0
+        Started, // 1
+        Running, // 2
+        Ended // 3
+    }
+
+    State public gameState = State.Close;
+
+    function startGame() public {
+        gameState = State.Started;
+    }
+
+
+    function fight() public {
+        require(gameState == State.Started, "Game still closed!");
+
+        // BLOCK OF CODE
+        value = 1;
+
     }
 
     function setMapping(uint _id, string memory _name, uint _level, uint _score) public {
