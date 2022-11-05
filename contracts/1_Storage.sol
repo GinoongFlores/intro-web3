@@ -14,10 +14,16 @@ contract Storage {
 
     bytes public b1 = "abc"; 
     string public s1 = "abc";
+    mapping(string => uint) public myMapping;
 
     constructor() {
         number = 100;
     }
+
+    function setMapping(string memory _name, uint _value) public {
+        myMapping[_name] = _value; 
+    }
+
 
     function addElement() public {
         b1.push("x");
