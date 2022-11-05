@@ -7,6 +7,44 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "addElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b1",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "retrieve",
 				"outputs": [
 					{
@@ -16,6 +54,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -76,11 +140,11 @@
 	},
 	"sources": {
 		"contracts/1_Storage.sol": {
-			"keccak256": "0x8550178b582c2471339730b724e7c8c4ce10ed24aeadd02c1b9639e31af739d3",
+			"keccak256": "0x6b4965f8b7fde6b0e0234091da598fd2f199cfef551544f3156e56742dc3226e",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ba63907b725f51e22335dd2044bc14f01d6aa38e678c346c3d7d1897da8004f5",
-				"dweb:/ipfs/QmNpmyCFMqT5beiencp7u21AnZFeuWxdeuaPziDqfCBpAN"
+				"bzz-raw://9804385be30acc652ca777b3dbea11f3a409a7b83c7996d78bdb95080ed19ea1",
+				"dweb:/ipfs/QmWXsrTcm1vdmB59LKgVkwwWx4vntNKkEffqPiqKVVCuqz"
 			]
 		}
 	},

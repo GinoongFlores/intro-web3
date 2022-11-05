@@ -10,6 +10,19 @@ pragma solidity 0.8.17;
 contract Storage {
 
     uint256 number;
+    uint256 value; 
+
+    bytes public b1 = "abc"; 
+    string public s1 = "abc";
+
+    constructor() {
+        number = 100;
+    }
+
+    function addElement() public {
+        b1.push("x");
+        // s1.push("x");
+    }
 
     /**
      * @dev Store value in variable
@@ -17,6 +30,16 @@ contract Storage {
      */
     function store(uint256 num) public {
         number = num;
+    }
+
+    // Setter ni
+    function setValue(uint _value) public {
+        value = _value;
+    }
+
+    // Getter ni
+    function getValue() public view returns (uint) {
+        return value;
     }
 
     /**
